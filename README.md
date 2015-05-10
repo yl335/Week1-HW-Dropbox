@@ -12,7 +12,7 @@ Time Spent: 9 hours
 * Text files for create account and sign in forms
 * Swipe through welcome screens
 
-#### Additional story
+#### Additional Stories
 * Added prepareSegue() in the welcome screen so the signup/signin screen only gets skipped from that view
 * Fake password strength indicators, "Create" is only enabled when the strength is above "So-So" and "Sign In" is only enabled when both email and password fields are filled
 
