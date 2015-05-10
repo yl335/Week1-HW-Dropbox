@@ -1,4 +1,6 @@
-##Week 1 Homework - Dropbox Prototype
+##CodePath Week 1 Homework
+Prototype of Dropbox's welcome screens, create account and sign in workflows.
+
 Time Spent: 9 hours
 
 
