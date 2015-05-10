@@ -19,8 +19,11 @@
 		B52321391AF9B6BF00011AFE /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B52321381AF9B6BF00011AFE /* SignInViewController.swift */; };
 		B523213B1AF9F29900011AFE /* TermsOfServiceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523213A1AF9F29900011AFE /* TermsOfServiceViewController.swift */; };
 		B523213D1AFA071300011AFE /* TroubleSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B523213C1AFA071300011AFE /* TroubleSignInViewController.swift */; };
-		B53C83441AFADC2B00609E06 /* Welcome3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C83431AFADC2B00609E06 /* Welcome3ViewController.swift */; };
-		B53C83461AFADD8300609E06 /* Welcome2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53C83451AFADD8300609E06 /* Welcome2ViewController.swift */; };
+		B5261E771AFE8B5700D7E978 /* FileDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5261E761AFE8B5700D7E978 /* FileDetailViewController.swift */; };
+		B5261E791AFE9A3400D7E978 /* FilesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5261E781AFE9A3400D7E978 /* FilesViewController.swift */; };
+		B5261E7B1AFEA53D00D7E978 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5261E7A1AFEA53D00D7E978 /* FavoritesViewController.swift */; };
+		B5261E7F1AFEA82600D7E978 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5261E7E1AFEA82600D7E978 /* WelcomeViewController.swift */; };
+		B530AF2E1AFECC4200B94E8A /* CreateAccount5ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B530AF2D1AFECC4200B94E8A /* CreateAccount5ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +53,11 @@
 		B52321381AF9B6BF00011AFE /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		B523213A1AF9F29900011AFE /* TermsOfServiceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsOfServiceViewController.swift; sourceTree = "<group>"; };
 		B523213C1AFA071300011AFE /* TroubleSignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TroubleSignInViewController.swift; sourceTree = "<group>"; };
-		B53C83431AFADC2B00609E06 /* Welcome3ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome3ViewController.swift; sourceTree = "<group>"; };
-		B53C83451AFADD8300609E06 /* Welcome2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome2ViewController.swift; sourceTree = "<group>"; };
+		B5261E761AFE8B5700D7E978 /* FileDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileDetailViewController.swift; sourceTree = "<group>"; };
+		B5261E781AFE9A3400D7E978 /* FilesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilesViewController.swift; sourceTree = "<group>"; };
+		B5261E7A1AFEA53D00D7E978 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		B5261E7E1AFEA82600D7E978 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		B530AF2D1AFECC4200B94E8A /* CreateAccount5ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccount5ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +106,13 @@
 				B52321121AF9A11D00011AFE /* ViewController.swift */,
 				B52321301AF9B09400011AFE /* CreateAccountRootViewController.swift */,
 				B52321141AF9A11D00011AFE /* Main.storyboard */,
-				B53C83431AFADC2B00609E06 /* Welcome3ViewController.swift */,
-				B53C83451AFADD8300609E06 /* Welcome2ViewController.swift */,
+				B530AF2D1AFECC4200B94E8A /* CreateAccount5ViewController.swift */,
+				B5261E7E1AFEA82600D7E978 /* WelcomeViewController.swift */,
+				B5261E7A1AFEA53D00D7E978 /* FavoritesViewController.swift */,
+				B5261E781AFE9A3400D7E978 /* FilesViewController.swift */,
 				B523213C1AFA071300011AFE /* TroubleSignInViewController.swift */,
 				B523213A1AF9F29900011AFE /* TermsOfServiceViewController.swift */,
+				B5261E761AFE8B5700D7E978 /* FileDetailViewController.swift */,
 				B52321171AF9A11D00011AFE /* Images.xcassets */,
 				B52321191AF9A11D00011AFE /* LaunchScreen.xib */,
 				B523210E1AF9A11D00011AFE /* Supporting Files */,
@@ -237,14 +246,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				B523213D1AFA071300011AFE /* TroubleSignInViewController.swift in Sources */,
-				B53C83441AFADC2B00609E06 /* Welcome3ViewController.swift in Sources */,
 				B52321371AF9B69100011AFE /* CreateAccountViewController.swift in Sources */,
 				B52321351AF9B4A400011AFE /* SignInRootViewController.swift in Sources */,
 				B52321391AF9B6BF00011AFE /* SignInViewController.swift in Sources */,
 				B52321311AF9B09400011AFE /* CreateAccountRootViewController.swift in Sources */,
 				B523213B1AF9F29900011AFE /* TermsOfServiceViewController.swift in Sources */,
+				B530AF2E1AFECC4200B94E8A /* CreateAccount5ViewController.swift in Sources */,
+				B5261E7B1AFEA53D00D7E978 /* FavoritesViewController.swift in Sources */,
+				B5261E771AFE8B5700D7E978 /* FileDetailViewController.swift in Sources */,
 				B52321131AF9A11D00011AFE /* ViewController.swift in Sources */,
-				B53C83461AFADD8300609E06 /* Welcome2ViewController.swift in Sources */,
+				B5261E7F1AFEA82600D7E978 /* WelcomeViewController.swift in Sources */,
+				B5261E791AFE9A3400D7E978 /* FilesViewController.swift in Sources */,
 				B52321111AF9A11D00011AFE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

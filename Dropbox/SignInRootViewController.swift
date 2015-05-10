@@ -10,10 +10,15 @@ import UIKit
 
 class SignInRootViewController: UIViewController {
     
+    var autoAdvance:Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        performSegueWithIdentifier("SignInSeque", sender: self)
+        
+        if (autoAdvance) {
+            performSegueWithIdentifier("SignInSeque", sender: self)
+        }
     }
     
     override func didReceiveMemoryWarning() {

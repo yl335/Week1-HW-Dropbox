@@ -10,10 +10,15 @@ import UIKit
 
 class CreateAccountRootViewController: UIViewController {
     
+    var autoAdvance:Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        performSegueWithIdentifier("CreateAccountSeque", sender: self)
+        
+        if (autoAdvance) {
+            performSegueWithIdentifier("CreateAccountSeque", sender: self)
+        }
     }
     
     override func didReceiveMemoryWarning() {
