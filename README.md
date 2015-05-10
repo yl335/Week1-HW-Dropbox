@@ -1,7 +1,5 @@
 ##Week 1 Homework - Dropbox Prototype
-
-### Time Spent
-9 hours
+Time Spent: 9 hours
 
 
 #### Required Stories Completed (All)
@@ -19,6 +17,7 @@
 * Fake password strength indicators, "Create" is only enabled when the strength is above "So-So" and "Sign In" is only enabled when both email and password fields are filled
 
 
+#### Walkthrough
 ![Video Walkthrough](Walkthrough.gif)
 
 
